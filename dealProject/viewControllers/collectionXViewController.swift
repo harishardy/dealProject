@@ -1,5 +1,5 @@
 //
-//  firstCollectionXViewController.swift
+//  collectionXViewController.swift
 //  dealProject
 //
 //  Created by harishardy on 06/06/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class firstCollectionXViewController: UIViewController {
+class collectionXViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

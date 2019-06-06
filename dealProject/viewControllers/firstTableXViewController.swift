@@ -39,9 +39,7 @@ class firstTableXViewController: UIViewController, UITableViewDataSource, UITabl
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
     {
-        
-        self.performSegue(withIdentifier: "goToSecondViewController", sender: self)
-        
+        self.performSegue(withIdentifier: "goToSecondVC", sender: self)
     }
     
     

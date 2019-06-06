@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--First CollectionX View Controller-->
+        <!--CollectionX View Controller-->
         <scene sceneID="jcU-t6-kSX">
             <objects>
-                <viewController id="39C-F0-KR8" customClass="firstCollectionXViewController" customModule="dealProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="39C-F0-KR8" customClass="collectionXViewController" customModule="dealProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3aE-pN-Ca9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -127,7 +127,7 @@
                     <navigationItem key="navigationItem" id="qa3-TY-6WV"/>
                     <connections>
                         <outlet property="tableViewX1" destination="psG-Y5-s5d" id="XvD-Ib-HjF"/>
-                        <segue destination="39C-F0-KR8" kind="show" identifier="goToSecondViewController" id="mwn-ok-I1F"/>
+                        <segue destination="39C-F0-KR8" kind="show" identifier="goToSecondVC" id="mwn-ok-I1F"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EtV-po-zGb" userLabel="First Responder" sceneMemberID="firstResponder"/>
