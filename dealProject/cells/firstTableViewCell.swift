@@ -18,6 +18,7 @@ class firstTableViewCell: UITableViewCell {
     @IBOutlet weak var labelX1: UILabel!
     
     
+    @IBOutlet weak var labelX2: UILabel!
     
     
     
